@@ -20,5 +20,5 @@ app.get('/v1/explorers', (req, res) => {
     const explorer3 = {id:3, name: "Sergio3"}
     const explorer4 = {id:1, name: "Sergio4"}
     const explorers = [explorer1, explorer2, explorer3, explorer4]
-    res.status(200).JSON(explorers)
+    res.status(200).json(explorers)
 });
